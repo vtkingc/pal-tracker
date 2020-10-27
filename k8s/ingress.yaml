@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: pal-tracker
   annotations:
-    kubernetes.io/ingress.class: nginx /
+    kubernetes.io/ingress.class: nginx
 spec:
   backend:
     serviceName: pal-tracker

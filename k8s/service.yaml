@@ -3,11 +3,11 @@ kind: Service
 metadata:
   name: pal-tracker
   labels:
-   app: pal-tracker
-   name: pal-tracker-pod
+    app: pal-tracker
 spec:
   type: ClusterIP
   selector:
-    app: pal-tracker-pod
+    app: pal-tracker
+    name: pal-tracker-pod
   ports:
     - port: 8080
