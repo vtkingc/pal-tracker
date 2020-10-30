@@ -5,7 +5,11 @@
 @rem you may not use this file except in compliance with the License.
 @rem You may obtain a copy of the License at
 @rem
+<<<<<<< HEAD
 @rem      https://www.apache.org/licenses/LICENSE-2.0
+=======
+@rem      http://www.apache.org/licenses/LICENSE-2.0
+>>>>>>> tags/mvc-solution
 @rem
 @rem Unless required by applicable law or agreed to in writing, software
 @rem distributed under the License is distributed on an "AS IS" BASIS,
@@ -29,9 +33,12 @@ if "%DIRNAME%" == "" set DIRNAME=.
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
+<<<<<<< HEAD
 @rem Resolve any "." and ".." in APP_HOME to make it shorter.
 for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 
+=======
+>>>>>>> tags/mvc-solution
 @rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
 set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
 
@@ -84,7 +91,10 @@ set CMD_LINE_ARGS=%*
 
 set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> tags/mvc-solution
 @rem Execute Gradle
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %CMD_LINE_ARGS%
 
