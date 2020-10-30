@@ -22,31 +22,15 @@ test {
 
 bootRun.environment([
         "WELCOME_MESSAGE": "hello",
-<<<<<<< HEAD
-        "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
-        "MANAGEMENT_HEALTH_PROBES_ENABLED": true,
-        "MANAGEMENT_ENDPOINT_HEALTH_GROUP_READINESS_INCLUDE": "backingService",
-        "MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE": "*"
-=======
         "MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE": "*",
         "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
         "MANAGEMENT_HEALTH_PROBES_ENABLED": true,
         "MANAGEMENT_ENDPOINT_HEALTH_GROUP_READINESS_INCLUDE": "backingService"
 
->>>>>>> tags/mvc-solution
 ])
 
 test.environment([
         "WELCOME_MESSAGE": "Hello from test",
-<<<<<<< HEAD
-        "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
-        "MANAGEMENT_HEALTH_PROBES_ENABLED": true,
-        "MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE": "*"
-])
-springBoot {
-    buildInfo()
-}
-=======
         "MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE": "*",
         "MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS": "always",
         "MANAGEMENT_HEALTH_PROBES_ENABLED": true
@@ -55,4 +39,3 @@ springBoot {
 springBoot {
     buildInfo()
 }
->>>>>>> tags/mvc-solution
